@@ -1,0 +1,26 @@
+.navigation {
+  height: 60px;
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: #71c4eb;
+  color: black;
+}
+.navigation-menu {
+  margin-left: auto;
+}
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+.navigation-menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navigation-menu li a {
+  text-decoration: none;
+  width: 100%;
+}
