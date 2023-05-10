@@ -19,8 +19,15 @@
 .navigation-menu li {
   list-style-type: none;
   margin: 0 1rem;
+  float: left;
 }
 .navigation-menu li a {
   text-decoration: none;
   width: 100%;
+  display: block;
+  padding: 8px;
+  background-color: #71c4eb;
+}
+h1{
+    color: rgb(40, 42, 184);
 }
