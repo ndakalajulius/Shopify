@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import "./Contact.css";
 const Contact = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -8,6 +9,7 @@ const Contact = () => {
 
   
   return (
+    <div className="main form">
     <form>
       <input
         value={firstName}
@@ -43,6 +45,7 @@ const Contact = () => {
       />
       <button type="submit">Submit</button>
     </form>
+    </div>
   );
 };
 
