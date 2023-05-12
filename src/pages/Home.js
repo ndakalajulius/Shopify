@@ -1,14 +1,16 @@
 import React from 'react'
 import "./Home.css";
 import Navbar from "../components/Navbar"
+import SignInPage from '../components/SignInPage';
 
 const Home = () => {
   return (<>
     <Navbar/>
-    <div className='sign-up'>
-     
     
-    </div>
+    
+    
+    
+    
     </>
   )
 }
