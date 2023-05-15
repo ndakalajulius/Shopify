@@ -6,7 +6,7 @@
   align-items: center;
   position: relative;
   padding: 0.5rem 0rem;
-  background-color: #71c4eb;
+  background-color: rgba(8, 232, 248, 0.87);
   color: black;
 }
 .navigation-menu {

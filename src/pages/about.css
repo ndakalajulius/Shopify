@@ -1,0 +1,27 @@
+.main-about{
+    background-image: url("/home/ndakala/Downloads/projects/Documents/reactprojects/shopify/public/assets/background.jpg");
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-size: cover; /* Set the image to cover all the div */
+    background-repeat: no-repeat; /* Commonly used for that situation */
+   
+}
+h1{
+    text-align: center;
+   margin-top: 55px;
+	color: #dad3ce;
+	font-weight: 600px;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 26px;
+	line-height: 22px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #a38f64;
+   
+}
+h2{
+    text-align: center;
+    color: rgb(224, 231, 233);
+   
+
+}
