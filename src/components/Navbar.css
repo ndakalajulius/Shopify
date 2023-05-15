@@ -6,8 +6,8 @@
   align-items: center;
   position: relative;
   padding: 0.5rem 0rem;
-  background-color: rgba(8, 232, 248, 0.87);
-  color: black;
+  background-color: rgba(235, 197, 25, 0.932);
+  color: rgb(231, 231, 231);
 }
 .navigation-menu {
   margin-left: auto;
@@ -26,8 +26,8 @@
   width: 100%;
   display: block;
   padding: 8px;
-  background-color: #71c4eb;
+  
 }
 h1{
-    color: rgb(243, 243, 248);
+    color: rgb(147, 147, 241);
 }

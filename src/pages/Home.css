@@ -6,10 +6,11 @@
    
 }
 .mainhomepage{
-    background-color: rgb(79, 72, 47);
+    background-image: url("/home/ndakala/Downloads/projects/Documents/reactprojects/shopify/public/assets/background.jpg");
     width: 100vw;
     height: 100vh;
     position: fixed;
     background-size: cover; /* Set the image to cover all the div */
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /* Commonly used for that situation */
+   
 }
