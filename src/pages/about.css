@@ -10,13 +10,13 @@
 h1{
     text-align: center;
    margin-top: 55px;
-	color: #dad3ce;
+	color: #4076eb;
 	font-weight: 600px;
 	font-family: 'Ultra', sans-serif;   
 	font-size: 26px;
 	line-height: 22px;
 	text-transform: uppercase;
-	text-shadow: 0 2px white, 0 3px #a38f64;
+	text-shadow: 0 2px rgb(55, 71, 214), 0 3px #172492;
    
 }
 .text{
