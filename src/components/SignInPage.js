@@ -5,7 +5,7 @@ import './SignInPage.css'
 
 export default function SignInPage() {
     return (
-        <div className="text-center m-5-auto">
+        <div className="signin">
             <h2>Sign in to us</h2>
             <form action="/home">
                 <p>

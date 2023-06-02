@@ -6,7 +6,7 @@ import './SignUpPage.css'
 export default function SignUpPage() {
 
     return (
-        <div className="text-center m-5-auto">
+        <div className="signup">
             <h2>Join us</h2>
             <h5>Create your personal account</h5>
             <form action="/home">
@@ -20,7 +20,7 @@ export default function SignUpPage() {
                 </p>
                 <p>
                     <label>Password</label><br/>
-                    <input type="password" name="password" requiredc />
+                    <input type="password" name="password" required/>
                 </p>
                 <p>
                     <input type="checkbox" name="checkbox" id="checkbox" required /> <span>I agree all statements in <a href="https://google.com" target="_blank" rel="noopener noreferrer">terms of service</a></span>.
