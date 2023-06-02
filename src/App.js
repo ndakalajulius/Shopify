@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Career from "./pages/Career";
 import Contact from "./pages/Contact";
+import SignUpPage from "./components/SignUpPage";
+import SignInPage from "./components/SignInPage";
 
 
 
@@ -21,6 +23,8 @@ function App() {
         <Route path="/career" element={<Career />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/" element={<Home />} />
+        <Route path="/Signup" element={<SignUpPage />} />
+        <Route path="/Signin" element={<SignInPage />} />
         
         
       </Routes>

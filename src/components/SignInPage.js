@@ -7,7 +7,7 @@ export default function SignInPage() {
     return (
         <div className="signin">
             <h2>Sign in to us</h2>
-            <form action="/home">
+            <form action="/Home">
                 <p>
                     <label>Username or email address</label><br/>
                     <input type="text" name="first_name" required />
@@ -23,7 +23,7 @@ export default function SignInPage() {
                 </p>
             </form>
             <footer>
-                <p>First time? <Link to="/register">Create an account</Link>.</p>
+                <p>First time? <Link to="/Home">Create an account</Link>.</p>
                 <p><Link to="/">Back to Homepage</Link>.</p>
             </footer>
         </div>

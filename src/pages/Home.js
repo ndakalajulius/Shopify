@@ -2,13 +2,14 @@ import React from "react";
 import "./Home.css";
 import Navbar from "../components/Navbar";
 
-import SignUpPage from "../components/SignUpPage";
+import SignInPage from "../components/SignInPage";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <SignUpPage />
+      <SignInPage />
+      
     </>
   );
 };
