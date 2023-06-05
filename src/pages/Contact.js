@@ -1,52 +1,49 @@
-import React from "react";
-import { useState } from "react";
-import "./Contact.css";
-const Contact = () => {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+import React, { useState } from "react";
 
-  
+const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [emailSent, setEmailSent] = useState(false);
+
+
+  const submit = () => {
+    if (name && email && message) {
+       // TODO - send mail
+
+        setName('');
+        setEmail('');
+        setMessage('');
+        setEmailSent(true);
+    } else {
+        alert('Please fill in all fields.');
+    }
+}
+
   return (
-    <div className="main form">
-    <form>
+    <>
       <input
-        value={firstName}
-        onChange={(e) => setFirstName(e.target.value)}
-        placeholder="First name"
         type="text"
-        name="firstName"
-        required
+        placeholder="Your Name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
       />
       <input
-        value={lastName}
-        onChange={(e) => setLastName(e.target.value)}
-        placeholder="Last name"
-        type="text"
-        name="lastName"
-        required
-      />
-      <input
+        type="email"
+        placeholder="Your email address"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        placeholder="Email address"
-        type="email"
-        name="email"
-        required
       />
-      <input
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        placeholder="Password"
-        type="password"
-        name="password"
-        required
-      />
-      <button type="submit">Submit</button>
-    </form>
-    </div>
+      <textarea
+        placeholder="Your message"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+      ></textarea>
+      <button onClick={submit}>Send Message</button>
+      <span className={emailSent ? "visible" : null}>
+        Thank you for your message, we will be in touch in no time!
+      </span>
+    </>
   );
 };
-
 export default Contact;
