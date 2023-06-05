@@ -1,5 +1,5 @@
 .main-about{
-    background-image: url("/home/ndakala/Downloads/projects/Documents/reactprojects/shopify/public/assets/background.jpg");
+   
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -28,7 +28,7 @@ h1{
 
 h2{
     text-align: center;
-    color: rgb(224, 231, 233);
+    color: rgb(43, 112, 131);
 
 }
 p{
