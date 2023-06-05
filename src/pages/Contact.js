@@ -1,49 +1,51 @@
-import React, { useState } from "react";
-
+import React from 'react'
+import "./Contact.css";
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [emailSent, setEmailSent] = useState(false);
-
-
-  const submit = () => {
-    if (name && email && message) {
-       // TODO - send mail
-
-        setName('');
-        setEmail('');
-        setMessage('');
-        setEmailSent(true);
-    } else {
-        alert('Please fill in all fields.');
+  const [formStatus, setFormStatus] = React.useState('Send')
+  const onSubmit = (e) => {
+    e.preventDefault()
+    setFormStatus('Submitting...')
+    const { name, email, message } = e.target.elements
+    let conFom = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
     }
-}
-
-  return (
-    <>
-      <input
-        type="text"
-        placeholder="Your Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-      <input
-        type="email"
-        placeholder="Your email address"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <textarea
-        placeholder="Your message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      ></textarea>
-      <button onClick={submit}>Send Message</button>
-      <span className={emailSent ? "visible" : null}>
-        Thank you for your message, we will be in touch in no time!
-      </span>
+    console.log(conFom)
+  }
+  return (<>
+    <Navbar/>
+    <div className="container mt-5">
+      <h4 className="form-heading">
+      Contact us  at anytime.</h4>
+      <form onSubmit={onSubmit}>
+        <div className="mb-3">
+          <label className="form-label" htmlFor="name">
+            Name
+          </label>
+          <input className="form-control" type="text" id="name" required />
+        </div>
+        <div className="mb-3">
+          <label className="form-label" htmlFor="email">
+            Email
+          </label>
+          <input className="form-control" type="email" id="email" required />
+        </div>
+        <div className="mb-3">
+          <label className="form-label" htmlFor="message">
+            Message
+          </label>
+          <textarea className="form-control" id="message" required />
+        </div>
+        <button className="btn btn-danger" type="submit">
+          {formStatus}
+        </button>
+      </form>
+    </div>
+    <Footer/>
     </>
-  );
-};
-export default Contact;
+  )
+}
+export default Contact

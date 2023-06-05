@@ -6,7 +6,7 @@ import Career from "./pages/Career";
 import Contact from "./pages/Contact";
 import SignUpPage from "./components/SignUpPage";
 import SignInPage from "./components/SignInPage";
-
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 
 
