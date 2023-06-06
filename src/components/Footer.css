@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111111e8;
+    height: 120px;
+    width: 100vw;
+    padding-top: 40px;
+    color: #f5eeee;
+}
+.social-container {
+    background: #eee;
+    padding: 25px 50px;
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color: black;
+  }
