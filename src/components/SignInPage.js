@@ -6,7 +6,7 @@ import './SignInPage.css'
 export default function SignInPage() {
     return (
         <div className="signin">
-            <h2>Sign in to us</h2>
+            <h2>Sign in</h2>
             <form action="/Home">
                 <p>
                     <label>Username or email address</label><br/>
