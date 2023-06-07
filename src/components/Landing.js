@@ -3,9 +3,11 @@ import "./Landing.css";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+// import landing from "./images/landing.jpg";
 const Landing = () => {
   return (
     <>
+    <div className="hero1">
       <Navbar />
       <section class="hero">
         <div class="intro-text">
@@ -29,6 +31,7 @@ const Landing = () => {
             <p className="main-para text-center">
               Join us now and don't waste time
             </p>
+
             <div className="buttons text-center">
               <Link to="Signin/">
                 <button className="primary-button">
@@ -48,6 +51,7 @@ const Landing = () => {
         </div>
       </section>
       <Footer />
+      </div>
     </>
   );
 };
