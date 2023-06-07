@@ -21,7 +21,7 @@ const About = () => {
             collaborations reveal that a brand exists for reasons beyond the
             material and transactional. This is how Made, the furniture brand,
             ensures people strolling through their about page get to know what
-            they’ve been up to.{" "}
+            they’ve been up to
           </p>
         </div>
       </div>

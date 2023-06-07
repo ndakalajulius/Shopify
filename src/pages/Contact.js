@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Contact = () => {
   const [formStatus, setFormStatus] = React.useState("Send");
@@ -44,6 +45,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <Footer/>
     </>
   );
 };

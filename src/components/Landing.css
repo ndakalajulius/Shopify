@@ -5,7 +5,13 @@
   gap: 1.9rem;
   /* max-width: 1100px; */
   margin: 2rem auto -6rem;
-  height: 100vh;
+  height: 80vh;
+}
+.intro-text {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .intro-text h1 {
@@ -18,15 +24,15 @@
 }
 
 .hero p {
-    color: rgb(54, 204, 87)
+  color: rgb(232, 241, 234);
 }
 
 .hear {
-  color: rgb(54, 204, 87)
+  color: rgb(234, 241, 236);
 }
 
 .connecting {
-    color: rgb(54, 204, 87)
+  color: rgb(238, 247, 240);
 }
 
 .btn {
