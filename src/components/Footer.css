@@ -4,25 +4,27 @@
     box-sizing: border-box;
 }
 .footer{
-    position: relative;
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2ddd16dc;
-    height: 150px;
-    width: 100vw;
+    background: #373837dc;
+    flex-grow: 0;
+    flex-shrink: 0;
     padding-top: 40px;
     color: #f5eeee;
 }
+h3{
+  margin-left: 70px;
+  
+}
 .social-container {
-    background: #c7d6c8;
-    padding: 25px 50px;
+  
     
   }
   a.social {
-    margin: 0 1rem;
-    transition: transform 250ms;
-    display: inline-block;
+   
+    margin-left: 40px;
   }
   a.social:hover {
     transform: translateY(-2px);

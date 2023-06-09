@@ -2,11 +2,10 @@
   height: 60px;
   width: 100%;
   display: flex;
-
   align-items: center;
   position: relative;
   padding: 0.5rem 0rem;
-  background-color: rgba(91, 235, 25, 0.932);
+  background-color: rgba(55, 56, 54, 0.932);
   color: rgb(231, 231, 231);
 }
 .navigation-menu {
@@ -26,8 +25,7 @@
   width: 100%;
   display: block;
   padding: 8px;
-  
 }
-h1{
-    color: rgb(79, 79, 189);
+h1 {
+  color: rgb(234, 234, 240);
 }
