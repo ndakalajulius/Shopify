@@ -1,33 +1,15 @@
-import React from "react";
-import "./Landing.css";
-
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import React from 'react'
+import './Landing.css'
 const Landing = () => {
   return (
-    <>
-      <Navbar />
-      <section class="hero">
-        <div class="intro-text">
-          <h1>
-            <span class="hear"> You can Hear the Jabs </span> <br />
-            <span class="connecting"> Connecting</span>
-          </h1>
-          <p>
-            An online streaming platform for boxing matches <br />
-            We also dedicate some special time to throwbacks cuz old is gold
-          </p>
-          <a class="btn red" href="./about">
-            Learn More
-          </a>
-          <a class="btn blue" href="./Signup">
-            Join Us
-          </a>
-        </div>
-      </section>
-      <Footer />
-    </>
-  );
-};
+    <div className='landingmain'>
+     <div className='heading '> WELCOME TO <br></br>MOOD BOOST </div>
+     <div className='text'> <i>We are on a mission to boost mental health  by celebrating feel good moods every month
+      This month we are hoping to help every one  feel more curious </i></div>
+   <div className='getstarted'>  <a href="./home" class="button">Get started</a></div>
+           
+    </div>
+  )
+}
 
-export default Landing;
+export default Landing
