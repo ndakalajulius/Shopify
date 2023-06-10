@@ -1,13 +1,14 @@
 import React from "react";
-import Landing from "../components/Landing";
-import SignInPage from "../components/SignInPage";
+import "./Home.css";
 import Navbar from "../components/Navbar";
-
+import Footer from "../components/Footer";
+import SignUpPage from "../components/SignUpPage";
 const Home = () => {
   return (
     <div className="home">
-    <Navbar/>
-      <SignInPage/>
+      <Navbar />
+      <SignUpPage />
+      <Footer />
     </div>
   );
 };
