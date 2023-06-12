@@ -23,7 +23,7 @@ export default function SignInPage() {
                 </p>
             </form>
             <footer>
-                <p>First time? <Link to="/Home">Create an account</Link>.</p>
+                <p>First time? <Link to="/signup">Create an account</Link>.</p>
                 <p><Link to="/">Back to Homepage</Link>.</p>
             </footer>
         </div>
