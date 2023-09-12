@@ -12,6 +12,7 @@ import Landing from "./components/Landing";
 function App() {
   return (
     <>
+    
       <Router>
         <Routes>
           <Route path="/about" element={<About />} />
